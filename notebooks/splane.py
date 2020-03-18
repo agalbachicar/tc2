@@ -1,8 +1,32 @@
 """
-Created on Tue May  8 09:25:56 2018
-
-@author: andres
+Combination of 
+http://scipy-central.org/item/52/1/zplane-function
+and
+http://www.dsprelated.com/showcode/244.php
+with my own modifications (Own --> Andres Di Donato)
 """
+
+# Copyright (c) 2011 Christopher Felton
+# 2018 modified by Andres Di Donato
+
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU Lesser General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU Lesser General Public License for more details.
+#
+# You should have received a copy of the GNU Lesser General Public License
+# along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+
+# The following is derived from the slides presented by
+# Alexander Kain for CS506/606 "Special Topics: Speech Signal Processing"
+# CSLU / OHSU, Spring Term 2011.
+
 import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib import patches
